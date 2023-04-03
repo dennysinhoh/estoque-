@@ -1,0 +1,96 @@
+* { 
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{ 
+    background-color: rgb(48, 47, 47);
+    color: antiquewhite;
+    display: flex;
+    align-items: end;
+
+}
+
+header h1{  
+    padding-left: 400px;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+main{   
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.produtos{ 
+    background-color: rgb(196, 223, 218);
+    border: 1px solid rgba(255, 255, 255, 0.801);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    
+    margin-bottom: 20px;
+
+}
+
+.inputprodutos{ 
+    display: grid;
+    margin-top: 15px;
+}
+
+input { 
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #ccc ;
+}
+
+button{ 
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 12px;
+    border: 0px;
+    padding: 10px;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+ 
+#cancelar:hover { 
+    background-color: rgba(192, 102, 95, 0.897);
+    color: rgb(139, 46, 34);
+    cursor: pointer;
+}
+
+#adicionar:hover { 
+    background-color: rgba(103, 218, 122, 0.692);
+    color: forestgreen;
+    cursor: pointer;
+    
+}
+
+
+table { 
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px;
+
+}
+
+table th {  
+    background-color: rgba(0, 0, 0, 0.521);
+    color: #ccc;
+    padding: 5px;
+}
+
+table td {  
+    padding: 2px;
+
+}
+                      /* imagem criada em javascript */
+table td img{        
+    width: 20px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>controle</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <img src="dnc.png">
+        <h1>Controle de Produtos</h1>
+    </header>
+    <main>
+        <h2>Produtos</h2> <br>
+        <span> lista de produtos</span>
+        <div class="produtos">
+            <div class="inputprodutos">
+                <label>Nome do Produtos</label><br>
+                <input type="text" id="item" placeholder="Produto desejado...">
+            </div>
+            <div class="inputprodutos">
+                <label>Preços</label><br>
+                <input type="text" id="preco" placeholder="R$ 00,00">
+            </div>                   
+            <button onclick="produto.adddados()" id="adicionar">Adicinar</button>
+            <button onclick="produto.cancelar()" id="cancelar">Cancelar</button>      
+        </div> 
+        <div class="lista">
+            <table border ="1"> 
+                <thead> 
+                    <th>ID</th>
+                    <th>produtos</th>
+                    <th>Preços</th>
+                    <th>Remover</th>
+                </thead>
+                <tbody id="tbody">  
+
+                </tbody>
+            </table>
+        </div>  
+    </main>
+    </main>
+    <script src="mercado.js"></script>
+
+</body>
+
+</html>
